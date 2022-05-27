@@ -18,5 +18,5 @@ jobs:
       - name: Build and push image to Docker Hub
         id: build-image
         run: |
-          docker build -t inabe49/dummy-web-server:latest -f ./Dockerfile .
+          docker build -t inabe49/dummy-web-server:latest -f Dockerfile .
           docker push inabe49/dummy-web-server:latest
